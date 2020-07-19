@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "mongod": "sudo /Users/arseniytokarev/mongoDB/bin/mongod --dbpath=/Users/arseniytokarev/mongoDBdata",
-    "dev": "env-cmd -f config/dev.env nodemon src/app.js -e js,hbs"
+    "dev": "env-cmd -f config/dev.env nodemon src/app.js -e js,hbs",
+    "start": "node src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
