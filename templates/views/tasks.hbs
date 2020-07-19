@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+<body>
+    {{> header}}
+    <div class="container">
+
+    <ul class="list-group list-group-flush">
+        {{#each tasks}}
+        <li class="list-group-item">
+            <a class='atags' href="/task/{{this._id}}">{{this.description}}</a><span class='completed text-primary'>
+            <a href="/delete/{{this._id}}">Done</a></span>
+        </li>
+        {{/each}}
+    </ul>
+
+    </div>
+
+</body>
+</html>

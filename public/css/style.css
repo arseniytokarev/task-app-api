@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.center {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin-top: 40px;
+}
+
+
+.registertag {
+    float: right;
+    margin-right: 10px;
+}
+
+.list-group-item {
+    font-size: 20px;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+.completed {
+    float: right;
+}
+.text-area{
+    font-size: 18px;
+}
+
+#profile-image {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.profile {
+    width: 800px;
+
+}

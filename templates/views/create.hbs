@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+<body>
+    {{>header}}
+    <div class='container'>
+
+    <form action="/create" method="post">
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">New Task</label>
+            <textarea class="form-control text-area" id="exampleFormControlTextarea1" rows="5" name="description"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Create</button>
+    </form>
+
+    </div>
+</body>
+</html>

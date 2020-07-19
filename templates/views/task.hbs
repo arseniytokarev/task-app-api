@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+<body>
+    
+    {{> header}}
+
+    <div class="container">
+        <h2>{{task.description}}</h2>
+
+        <h5 class='pt-4 text-primary'>
+            <a href="/delete/{{task.id}}">Done</a>
+        </h5>
+
+    </div>
+</body>
+</html>
